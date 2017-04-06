@@ -9,7 +9,9 @@
   },
   "author": "Kevin Whinnery",
   "license": "MIT",
-  "engines" : { "node" : ">=4.1.0 <5.5.0" },
+  "engines": {
+    "node": ">=4.1.0 <5.5.0"
+  },
   "dependencies": {
     "body-parser": "^1.6.5",
     "express": "^4.8.5",
@@ -18,9 +20,11 @@
     "jade": "1.7.x"
   },
   "devDependencies": {
-    "tape": "^2.14.0",
+    "cheerio": "^0.17.0",
     "faucet": "*",
+    "pug-lint": "^2.4.0",
+    "pug-lint-config-clock": "^2.0.0",
     "supertest": "^0.13.0",
-    "cheerio": "^0.17.0"
+    "tape": "^2.14.0"
   }
 }
