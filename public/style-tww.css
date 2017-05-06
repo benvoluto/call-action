@@ -16,11 +16,12 @@ header {
   background-color: #00c3dc;
   text-align: center;
   padding: 0.5em;
+  display: flex;
 }
 
 .logo {
-  height: 100%;
-  width: auto;
+  margin: auto;
+  max-width: 80%;
   padding: 0;
 }
 
