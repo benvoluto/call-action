@@ -15,7 +15,7 @@ header {
   width: 100%;
   background-color: #00c3dc;
   text-align: center;
-  padding: 0.5em;
+  padding: 0;
   display: flex;
 }
 
@@ -246,6 +246,9 @@ input[type="submit"] {
     white-space: pre-wrap;
   }
 
+  h1 {
+    font-size: 1.8em;
+  }
   input[type="text"] {
     width: 16em;
   }
@@ -256,5 +259,14 @@ input[type="submit"] {
 
   .articles {
     display: none;
+  }
+
+  .field input {
+    width: 100%;
+  }
+
+  .field input.text-compact {
+    width: 100%;
+    margin-top: 0.5em;
   }
 }
