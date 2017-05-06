@@ -262,10 +262,13 @@ input[type="submit"] {
   }
 
   .field input {
+    box-sizing: border-box;
     width: 100%;
   }
 
-  .field input.text-compact {
+  .field input.text-compact
+  .field input.text-medium {
+    box-sizing: border-box;
     width: 100%;
     margin-top: 0.5em;
   }
