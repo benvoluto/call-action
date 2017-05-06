@@ -266,7 +266,7 @@ input[type="submit"] {
     width: 100%;
   }
 
-  .field input.text-compact
+  .field input.text-compact,
   .field input.text-medium {
     box-sizing: border-box;
     width: 100%;
